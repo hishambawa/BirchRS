@@ -1,7 +1,7 @@
 import pandas as pd
-from modules.data_loader import DataLoader
-from utils.logger import BasicLogger
-from interfaces.clustering import IClusteringModel
+from birchrs.modules.data_loader import DataLoader
+from birchrs.utils.logger import BasicLogger
+from birchrs.interfaces.clustering import IClusteringModel
 
 class RecommendationSystem:
 

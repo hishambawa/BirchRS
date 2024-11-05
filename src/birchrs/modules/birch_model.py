@@ -1,8 +1,7 @@
 from sklearn.cluster import Birch
 
-from utils.logger import BasicLogger
-
-from interfaces.clustering import IClusteringModel
+from birchrs.utils.logger import BasicLogger
+from birchrs.interfaces.clustering import IClusteringModel
 
 import pandas as pd
 

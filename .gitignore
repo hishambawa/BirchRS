@@ -8,4 +8,7 @@
 **/__pycache__
 
 # datasets
-src/data/**
+src/birchrs/data/**
+
+# package files
+birchrs.egg-info

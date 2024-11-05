@@ -1,4 +1,4 @@
-from utils.validator import Validator
+from birchrs.utils.validator import Validator
 
 class Converter:
 

@@ -1,7 +1,7 @@
 import pandas as pd
 
-from models.data_loader_config import DataLoaderConfig
-from utils.logger import BasicLogger
+from birchrs.models.data_loader_config import DataLoaderConfig
+from birchrs.utils.logger import BasicLogger
 
 class DataLoader:
     def __init__(self, config: DataLoaderConfig, logger: BasicLogger):
